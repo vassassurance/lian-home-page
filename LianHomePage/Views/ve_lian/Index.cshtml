@@ -1,0 +1,92 @@
+﻿<section id="header" class="page-header">
+    <div class="container">
+        <img class="img-fluid w-100 img-header" src="~/public/assets/images/about.jpg" alt="">
+    </div>
+    <div class="sec-bottom">
+        <img class="img-fluid w-100" src="~/public/assets/images/header-bottom.png" alt="">
+    </div>
+</section>
+<section id="about" class="page-section">
+    <div class="container">
+        <header class="sec-header">
+            <h1>VỀ LIAN - TODAY NOT TOMORROW</h1>
+        </header>
+        <div class="sec-content text-left">
+            <div class="row align-items-center mb-5">
+                <div class="col-sm-6">
+                    <p>
+                        LIAN là ứng dụng di động trên nền tảng iOS/Android nhằm giúp các cá nhân tìm hiểu, đăng ký các gói bảo hiểm của Công ty
+                        Cổ phần Bảo hiểm Viễn Đông (VASS), nhằm bảo vệ cá nhân, gia đình và các nghĩa vụ cộng đồng, như:<br>
+                        - Bảo hiểm Cháy - Nổ<br>
+                        - Bảo hiểm Trọn gói Hộ gia đình<br>
+                        - Bảo hiểm Lái xe<br>
+                        - Bảo hiểm Du lịch<br>
+                        - Bảo hiểm Học tập<br>
+                        ...
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="about">
+                        <div class="img-about">
+                            <img class="img-fluid w-100" src="~/public/assets/images/about-photo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <b>MỤC TIÊU:</b><br>
+                Mục tiêu mà chúng tôi đang hướng đến là có 20 triệu gia đình Việt Nam được bảo hiểm, phòng tránh các rủi ro.
+            </p>
+            <p class="mb-0">
+                <b>SỨ MỆNH:</b><br>
+            </p>
+            <ul>
+                <li>Mang đến cho khách hàng, người dân Việt Nam một công cụ bảo hiểm tiện lợi, an toàn, minh bạch, giá rẻ, hỗ trợ mọi lúc mọi nơi.</li>
+                <li>Giúp cho các nhân viên và mọi đối tác một công cụ thu nhập thụ động cao, ổn định và bền vững.</li>
+            </ul>
+            <p>Để tìm hiểu thêm về hoạt động của Bảo hiểm Viễn Đông - VASS, Quý Khách hàng vui lòng xem thông tin chi tiết tại Website: <a href="http://www.vass.com.vn">www.vass.com.vn</a></p>
+        </div>
+    </div>
+    <div class="sec-bottom">
+        <img class="img-fluid w-100" src="~/public/assets/images/section2-bottom.png" alt="">
+    </div>
+</section>
+<section id="contact" class="page-section">
+    <div class="container">
+        <header class="sec-header">
+            <h1>TÔI CẦN TƯ VẤN TRỰC TIẾP?</h1>
+        </header>
+        <div class="sec-content contact-form-wrapper">
+            <div class="row">
+                <div class="col-sm-5 col-lg-4">
+                    <div class="contact-form">
+                        <h5 class="mb-4">Gửi ngay câu hỏi qua email</h5>
+                        <form action="~/ve-lian.html" onsubmit="return loading();" method="post" accept-charset="utf-8">
+                            <input type="hidden" name="csrf_security" value="632e9521c3723dbef47eb9bb11bd3c88" style="display:none;" />
+                            <div class="form-group input-effect">
+                                <input type="text" name="fullname" class="form-control label-effect" id="name" required>
+                                <label for="name">Họ và tên</label>
+                            </div>
+                            <div class="form-group input-effect">
+                                <input type="tel" name="phone" class="form-control label-effect" id="phone" required>
+                                <label for="phone">Số điện thoại</label>
+                            </div>
+                            <div class="form-group input-effect">
+                                <input type="email" name="email" class="form-control label-effect" id="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="content" class="sr-only">Nội dung cần tư vấn</label>
+                                <textarea class="form-control" name="content" id="content" rows="4" placeholder="Bất kỳ vấn đề gì bạn thắc mắc..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-lian-warning mb-3">Tư vấn cho tôi</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-lg-8">
+                    <img class="img-fluid w-100" src="~/public/assets/images/contact-form.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -18,6 +18,11 @@ namespace LianHomePage.Controllers
             return View();
         }
 
+        public IActionResult ve_lian()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

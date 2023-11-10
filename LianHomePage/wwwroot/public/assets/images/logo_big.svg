@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="943px" height="980px" viewBox="0 0 943 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_big copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFBB45" offset="0%"></stop>
+            <stop stop-color="#FF7923" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1175.80147,185.720501 C1173.40476,168.611052 1161.01979,6.21294475 1144.27769,1.58720645 L607.692712,1.58720645 C600.043003,-0.529068817 591.962815,-0.529068817 584.307288,1.58720645 L47.7223137,1.58720645 C30.9802109,6.21294475 18.5952434,168.60527 16.1985282,185.720501 C13.0862888,207.96452 -57.9134901,733.540905 124.196144,994.999198 C306.090538,1256.14525 574.423746,1323.06812 585.755788,1325.79153 C589.123987,1326.60103 592.556176,1327 596,1327 C599.443824,1327 602.876013,1326.59525 606.244212,1325.79153 C617.582071,1323.06812 885.915279,1256.14525 1067.80386,994.999198 C1249.91349,733.546688 1178.91371,207.970303 1175.80147,185.720501 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="267 35 625 35 625 907 267 907"></polygon>
+        <filter x="-2.0%" y="-1.0%" width="103.9%" height="101.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="56.3224655%" y1="0%" x2="56.3224673%" y2="84.746159%" id="linearGradient-7">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-8" x="544" y="490" width="358" height="895"></rect>
+        <filter x="-2.0%" y="-1.0%" width="103.9%" height="101.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="94.1894531%" y1="-7.25911458%" x2="24.613444%" y2="87.3535156%" id="linearGradient-10">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Home" transform="translate(-977.000000, 0.000000)">
+            <g id="header" transform="translate(0.000000, -347.000000)">
+                <g id="logo_big-copy" style="mix-blend-mode: overlay;" transform="translate(977.000000, 0.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Shield-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <g id="Path-Copy-3" opacity="0.800000012" style="mix-blend-mode: soft-light;" mask="url(#mask-3)" transform="translate(446.000000, 471.000000) scale(1, -1) translate(-446.000000, -471.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Path-Copy-2" style="mix-blend-mode: soft-light;" mask="url(#mask-3)" transform="translate(723.000000, 937.500000) rotate(-90.000000) translate(-723.000000, -937.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                        <use fill="url(#linearGradient-7)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    </g>
+                    <circle id="Oval-2-Copy" fill="url(#linearGradient-10)" opacity="0.400000006" style="mix-blend-mode: soft-light;" mask="url(#mask-3)" cx="625" cy="759" r="358"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
