@@ -2,7 +2,8 @@
 
 namespace LianHomePage.Controllers
 {
-    public class dieu_khoan_su_dungController : Controller
+    [Route("dieu-khoan-su-dung")]
+    public class AgreementController : Controller
     {
         public IActionResult Index()
         {

@@ -2,7 +2,8 @@
 
 namespace LianHomePage.Controllers
 {
-    public class lien_heController : Controller
+    [Route("lien-he")]
+    public class ContactController : Controller
     {
         public IActionResult Index()
         {

@@ -2,7 +2,8 @@
 
 namespace LianHomePage.Controllers
 {
-    public class bao_chi_noi_ve_lianController : Controller
+    [Route("bao-chi-noi-ve-lian")]
+    public class ArticleController : Controller
     {
         public IActionResult Index()
         {

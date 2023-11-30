@@ -2,7 +2,8 @@
 
 namespace LianHomePage.Controllers
 {
-    public class dai_lyController : Controller
+    [Route("dai-ly")]
+    public class AgentController : Controller
     {
         public IActionResult Index()
         {

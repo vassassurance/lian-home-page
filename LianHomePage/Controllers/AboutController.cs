@@ -2,7 +2,8 @@
 
 namespace LianHomePage.Controllers
 {
-    public class ve_lianController : Controller
+    [Route("ve-lian")]
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
